@@ -1,0 +1,17 @@
+/*
+  INDEX
+*/
+
+/* VENDOR */
+@import "vendor/normalize.css";
+
+/* CORE */
+@import "core/font.css";
+@import "core/typography.css";
+@import "core/media.css";
+@import "core/page.css";
+@import "core/print.css";
+
+/* MODULES */
+@import "modules/header.css";
+@import "modules/footer.css";

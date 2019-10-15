@@ -1,0 +1,18 @@
+/*
+  MEDIA
+  Images, videos, iframes & helpers
+*/
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+video {
+
+}
+
+iframe {
+  
+}
