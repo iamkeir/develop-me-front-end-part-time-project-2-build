@@ -1,0 +1,10 @@
+/*
+  ASIDE SECTION
+*/
+
+.aside-section {
+  margin: 2.5em 0;
+}
+
+/* If first child, we don't want top margin */
+.aside-section:first-child { margin-top: 0; }

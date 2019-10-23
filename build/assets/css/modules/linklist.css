@@ -1,0 +1,21 @@
+/*
+  LINKLIST
+*/
+
+.linklist {
+  margin: 1.2em 0;
+  padding-left: 1.2em;
+}
+
+.linklist li {
+  margin: 0.4em 0;
+}
+
+.linklist li a {
+  text-decoration: none;
+}
+
+.linklist li a:hover,
+.linklist li a:focus {
+  text-decoration: underline;
+}

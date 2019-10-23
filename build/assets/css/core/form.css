@@ -1,3 +1,50 @@
 /*
   FORM
 */
+
+
+form {
+
+}
+
+label {
+
+}
+
+.label--hidden {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+input {
+  display: block;
+  width: 100%;
+  border: 2px solid #dee2e5;
+  background: white;
+  font-size: 1.4rem;
+  padding: 10px;
+  line-height: 1;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 1.4rem;
+  border: 0;
+  background: #fe6c7f;
+  color: white;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.form--pair {
+  display: flex;
+}
+
+.form--pair input {
+  flex: 1;
+}
+
+.form--pair button {
+  margin-left: 5px;
+}

@@ -6,12 +6,22 @@
 @import "vendor/normalize.css";
 
 /* CORE */
+@import "core/global.css";
 @import "core/font.css";
 @import "core/typography.css";
 @import "core/media.css";
+@import "core/form.css";
 @import "core/page.css";
+@import "core/layout.css";
 @import "core/print.css";
 
 /* MODULES */
 @import "modules/header.css";
 @import "modules/footer.css";
+@import "modules/banner.css";
+@import "modules/meta.css";
+@import "modules/tags.css";
+@import "modules/linklist.css";
+@import "modules/aside-section.css";
+@import "modules/social.css";
+@import "modules/icon-button.css";

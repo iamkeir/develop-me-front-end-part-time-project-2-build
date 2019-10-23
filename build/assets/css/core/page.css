@@ -16,6 +16,29 @@
   flex: 1;
 }
 
+.page__main__banner {
+  
+}
+
+@media (min-width: 750px) {
+  .page__main__body {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 750px) {
+  .page__main__content {
+    width: 68%;
+  }
+}
+
+@media (min-width: 750px) {
+  .page__main__aside {
+    width: 28%;
+  }
+}
+
 .page__footer {
 
 }

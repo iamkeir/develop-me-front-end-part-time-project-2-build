@@ -1,0 +1,28 @@
+/*
+  BANNER
+*/
+
+.banner {
+  background: #fff0e9;
+  padding: 65px 0;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 750px) {
+  .banner {
+    padding: 100px 0;
+    margin-bottom: 80px;
+  }
+}
+
+.banner__title {
+  margin: 0;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+@media (min-width: 750px) {
+  .banner__title {
+    font-size: 5rem;
+  }
+}

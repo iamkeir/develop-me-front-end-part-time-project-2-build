@@ -1,0 +1,13 @@
+/*
+  META
+*/
+
+.meta {
+  color: #d4d5d9;
+  font-size: 1.4rem;
+  margin: 1.6em auto;
+}
+
+.meta em {
+  font-style: normal;
+}

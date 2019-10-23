@@ -1,0 +1,32 @@
+/*
+  TAGS
+*/
+
+.tags {
+
+}
+
+.tags ul {
+  margin: 2.2em 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tags li {
+  display: inline-block;
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.tags li a {
+  display: inline-block;
+  background: #41cadd;
+  padding: 5px 6px;
+  color: white;
+  text-decoration: none;
+}
+
+.tags li a:hover,
+.tags li a:focus {
+  background: #2caec0;
+}

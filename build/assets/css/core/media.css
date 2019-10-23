@@ -14,5 +14,21 @@ video {
 }
 
 iframe {
-  
+
+}
+
+.media {
+  margin: 2em auto;
+  text-align: center;
+}
+
+.media:first-child { margin-top: 0; }
+.media:last-child { margin-bottom: 0; }
+
+.media--image {
+
+}
+
+.media--image img {
+
 }
