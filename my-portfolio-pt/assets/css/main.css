@@ -1,0 +1,296 @@
+/* CUSTOM FONTS */
+
+@font-face {
+  font-family: 'OpenSansRegular';
+  src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+       url('../fonts/opensans-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* GLOBAL */
+
+* {
+	box-sizing: border-box; /* Because this is more sane :) */
+}
+
+html {
+	font-size: 10px; /* So our rem value will be rem * 10 = px, e.g. 1.2rem * 10 = 12px */
+}
+
+body {
+	font-family: 'OpenSansRegular', sans-serif;
+	font-size: 1.8rem;
+	line-height: 1.4;
+}
+
+img {
+	display: inline-block;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+a {
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Kurale', serif;
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+	margin-top: 0;
+}
+
+/* BUTTONS */
+
+button {
+  font-family: 'Kurale', serif;
+  display: inline-block;
+  color: white;
+	border-radius: 4px;
+  border: 0;
+	padding: 10px 18px 14px;
+  background-image: linear-gradient(#335159, #24444c);
+  line-height: 1;
+  font-size: 3.0rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-image: none;
+  background-color: #24444c;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+/* FORMS */
+
+form {
+  margin: 35px 0;
+}
+
+form:first-child { margin-top: 0; }
+form:last-child { margin-bottom: 0; }
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  display: block;
+  background: #ebebeb;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 18px;
+  width: 100%;
+}
+
+textarea {
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.field {
+  margin-bottom: 25px;
+}
+
+/* .field-full-height {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.field-full-height textarea {
+  flex-grow: 1;
+} */
+
+.field-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.field-grid-column {
+  width: 48%;
+}
+
+/* GLOBAL HELPERS */
+
+.wrapper {
+	max-width: 1100px;
+	margin: 0 auto;
+	box-shadow: 0 0 15px 0 rgba(0,0,0,0.5);
+}
+
+.width-tight {
+  max-width: 700px;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.text-center { text-align: center !important; }
+.text-right { text-align: right !important; }
+.text-left { text-align: left !important; }
+
+/* HEADER */
+
+.header {
+	background-image: linear-gradient(#c3da1c, #b0c519);
+	color: white;
+	border-bottom: 10px solid #24444c;
+	padding: 60px 40px;
+}
+
+.header-logo {
+	margin: 0;
+	font-size: 6.0rem;
+}
+
+.header-nav {
+	font-family: 'Kurale', serif;
+	font-size: 3.0rem;
+}
+
+@media (min-width: 901px) {
+
+  .header-logo {
+    float: left;
+  }
+
+  .header-nav {
+    float: right;
+  }
+
+}
+
+.header-nav ul {
+	margin: 12px 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+.header-nav li {
+	margin: 0 5px;
+	display: inline-block;
+	line-height: 1;
+}
+
+.header-nav li a {
+	display: block;
+	border-radius: 4px;
+	padding: 10px 18px 14px;
+	text-decoration: none;
+}
+
+.header-nav li a:hover,
+.header-nav li a.is-current {
+	background-image: linear-gradient(#335159, #24444c);
+}
+
+/* SECTIONS */
+
+.section {
+	padding: 40px;
+}
+
+/* SECTION: ABOUT */
+
+.section-about {
+	color: #25444d;
+  background: white url(../img/starburst.gif) top right no-repeat;
+  background-size: cover;
+}
+
+/* SECTION: WORK */
+
+.section-work {
+	background-color: #9ca1a4;
+	color: white;
+}
+
+.work-list {
+	margin: 0 -15px;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.work-list li {
+	margin: 0 15px 50px;
+	max-width: 200px;
+}
+
+.work-list li a {
+	display: block;
+	border: 3px solid white;
+}
+
+.work-nav {
+
+}
+
+.work-nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.work-nav li {
+
+
+}
+
+.work-nav li a {
+  font-family: 'Kurale', serif;
+  display: inline-block;
+  color: white;
+	border-radius: 4px;
+  border: 0;
+	padding: 10px 18px 14px;
+  text-decoration: none;
+  background-image: linear-gradient(#c3da1c, #b0c519);
+  line-height: 1;
+  font-size: 3.0rem;
+  cursor: pointer;
+}
+
+/* SECTION: CONTACT */
+
+.section-contact {
+	background-image: linear-gradient(#c3da1c, #b0c519);
+	color: white;
+}
+
+/* FOOTER */
+
+.footer {
+	background: #26444c;
+	color: white;
+	padding: 40px;
+}
+
+.footer p {
+	margin: 0;
+	text-align: center;
+}

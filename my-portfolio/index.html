@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <!-- Declare character set for translation/font consistency -->
+    <meta charset="utf-8" />
+    
+    <!-- For browser tab/search engines -->
+    <title>My Portfolio</title>
+    <meta name="description" content="Hey Google, this is my amazing portfolio" />
+    
+    <!-- For responsive accuracy -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+  </head>
+  <body id="top">
+
+    <div class="wrapper">
+
+      <a href="#content" class="skip-content">Skip to content</a>
+        
+      <header class="header bg-green padded-large">
+        
+        <h1 class="header-logo">My Portfolio</h1>
+
+        <nav class="header-nav">
+          <a class="header-nav-mobile js-nav-toggle" href="#menu">
+            <img src="assets/img/icon-menu.svg" alt="Show menu" />
+          </a>
+          <ul id="menu" class="header-nav-desktop js-nav">
+            <li>
+              <a href="#" class="is-active">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Work</a>
+            </li>
+          </ul>
+        </nav>
+
+      </header>
+
+      <main id="content">
+
+        <article class="about padded">
+
+          <div class="width-tight">
+
+            <h2 class="about-heading">About</h2>          
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus quos earum cum, molestias <strong>veritatis itaque voluptate?</strong> Eligendi <em>quia nihil, eum quaerat</em> magnam quae alias fuga. Voluptatum illum quas omnis doloribus?</p>
+
+            <p>Lorem <a href="#">ipsum dolor sit</a>, amet consectetur adipisicing elit. Possimus quos earum cum, molestias veritatis itaque voluptate? Eligendi quia nihil, eum quaerat magnam quae alias fuga. Voluptatum illum quas omnis doloribus?</p>
+
+            <p class="txt-right">
+              <a href="#">More...</a>
+            </p>
+          
+          </div>
+
+        </article>
+
+        <section class="work padded bg-grey">
+
+          <h2 class="work-heading">Recent Work</h2>
+
+          <ul class="work-list">
+            <li>                            
+              <a href="#">
+                <img src="http://placekitten.com/550/550" alt="Randomised kitten" />
+              </a>                
+            </li>
+            <li>                          
+              <a href="#">
+                <img src="http://placekitten.com/550/550" alt="Randomised kitten" />
+              </a>                
+            </li>
+            <li>                            
+              <a href="#">
+                <img src="http://placekitten.com/550/550" alt="Randomised kitten" />
+              </a>                
+            </li>
+            <li>                          
+              <a href="#">
+                <img src="http://placekitten.com/550/550" alt="Randomised kitten" />
+              </a>                
+            </li>
+            <li>                            
+              <a href="#">
+                <img src="http://placekitten.com/550/550" alt="Randomised kitten" />
+              </a>                
+            </li>
+            <li>                          
+              <a href="#">
+                <img src="http://placekitten.com/550/550" alt="Randomised kitten" />
+              </a>                
+            </li>
+            <li>                            
+              <a href="#">
+                <img src="http://placekitten.com/550/550" alt="Randomised kitten" />
+              </a>                
+            </li>
+            <li>                          
+              <a href="#">
+                <img src="http://placekitten.com/550/550" alt="Randomised kitten" />
+              </a>                
+            </li>       
+          </ul>          
+
+          <p class="work-action">
+            <a href="#" class="button button-right-arrow button-green">See more</a>
+          </p>
+
+        </section>
+
+        <section class="contact padded bg-green">
+
+          <h2 class="contact-heading">Get in touch</h2>
+          
+          <p>You can <a href="emailto:hello@iamkeir.com">email me</a>, or fill out the form:</p>
+
+          <form>
+            
+            <div class="form-grid">
+              <div class="form-grid-col form-grid-col-half">
+
+                <div class="field">
+                  <label for="full-name">Name</label>            
+                  <input
+                    id="full-name"
+                    name="full-name"
+                    type="text"
+                    placeholder="Joe Bloggs"
+                    required
+                  /> 
+                </div>            
+              
+                <div class="field">
+                  <label for="email-address">Email</label>
+                  <input
+                    id="email-address"
+                    name="email-address"
+                    type="email"
+                    placeholder="joe@bloggs.com"
+                    required
+                  />
+                </div>
+                  
+              </div><!--/form-grid-col--> 
+              <div class="form-grid-col form-grid-col-half">           
+
+                <div class="field field-full-height">
+                  <label for="message">Message</label>
+                  <textarea 
+                    id="message"
+                    name="message"
+                    placeholder="Hi there, you're great"
+                    rows="5"
+                  ></textarea>
+                </div>
+
+              </div><!--/form-grid-col-->            
+            </div><!--/form-grid-->
+            
+            <div class="form-action txt-right">
+              <button class="button button-blue">Send</button>
+            </div>
+
+          </form>
+                
+        </section>
+
+      </main>
+
+      <footer class="footer padded bg-blue txt-center">
+
+        <p>
+          &copy; Company 2018. <a href="#top">Back to top</a>
+        </p>      
+
+      </footer>
+
+    </div>
+
+    <script src="assets/js/main.js"></script>
+      
+  </body>
+</html>
